@@ -41,6 +41,11 @@ public class GameUI: MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+    public void AddTime(float seconds)
+    {
+        if(gameOver) return;
+        timeLeft += seconds;
+    }
 } 
 
 

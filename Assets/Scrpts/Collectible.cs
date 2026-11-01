@@ -7,6 +7,7 @@ public class Collectible : MonoBehaviour
    public bool doubleScore;
    public int damage;
    public int healAmount;
+   public float addTime;
    void OnTriggerEnter(Collider other)
     {
         if(!other.CompareTag("Player"))
@@ -25,7 +26,13 @@ public class Collectible : MonoBehaviour
                 hp.Heal(healAmount);
         }
         Destroy(gameObject);
+       if(addTime > 0)
+    {
+        GameUI ui = FindFirstObjectByType<GameUI>();
+        if(ui != null) ui.AddTime(addTime);
+    } 
     }
+    
     void Start()
     {
         
