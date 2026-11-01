@@ -80,8 +80,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5843fee00310440b2bdb8f2778f76183, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Collectible
-  scoreChange: -5
+  scoreChange: 10
   doubleScore: 0
+  damage: 5
+  healAmount: 0
 --- !u!65 &-2958469330167280964
 BoxCollider:
   m_ObjectHideFlags: 0

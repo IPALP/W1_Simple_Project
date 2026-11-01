@@ -62,6 +62,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cc161135542e34c369b1313c94c708e6, type: 3}
       insertIndex: -1
       addedObject: {fileID: -7895569031122773303}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: cc161135542e34c369b1313c94c708e6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3526638289059267196}
   m_SourcePrefab: {fileID: 100100000, guid: cc161135542e34c369b1313c94c708e6, type: 3}
 --- !u!1 &8315019492765550448 stripped
 GameObject:
@@ -103,3 +106,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.006680662, y: 0.037374943, z: 0.027375616}
   m_Center: {x: 0, y: 0.00015320253, z: -0.014367709}
+--- !u!114 &3526638289059267196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8315019492765550448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef2d1fbe4ea1e413d894eb89aa4549dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PowerUpBehaviour
+  turnspeed: 240

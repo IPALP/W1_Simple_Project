@@ -28,8 +28,9 @@ public class GameUI: MonoBehaviour
         ScoreText.text = "Final score: " + PickUp.score;
        
     }
-    void EndGame()
+    public void EndGame()
     {
+        if (gameOver) return;
         gameOver = true;
         finalScoreText.text = "Final score: "+ PickUp.score;
         gameOverPanel.SetActive(true);
