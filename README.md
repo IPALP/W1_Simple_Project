@@ -35,7 +35,9 @@ A Unity game about driving a car through a field of obstacles against the clock.
 This is my first Unity project. I wanted to learn how the main parts of a game fit together: player control, spawning, UI and collisions. I chose a simple game idea so I could create something playable, then keep improving it.
 
 ## Play it
-Web build on itch.io: https://ipalp.itch.io/w1-terra-car-game (Week 1 version)
+Web build on itch.io: 
+https://ipalp.itch.io/w1-terra-car-game (Week 1 version)
+https://ipalp.itch.io/pain-to-gain (Week 2 Update)
 
 ## Built with
 Unity 6 (6000.2.13f1), C#, Blender. Developed on macOS.
